@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import { useEffect, useState,useCallback } from 'react';
 import { BiCalendar, BiTrash } from "react-icons/bi"
@@ -68,6 +69,28 @@ function App() {
           ))}
 
         </ul>
+=======
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+>>>>>>> bb433da5c1223b04499f2e80b7aeb925c8353395
     </div>
   );
 }
